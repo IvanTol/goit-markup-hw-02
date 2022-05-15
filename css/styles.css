@@ -15,16 +15,50 @@ body {
 
 /* потом цвет акцента (фона) #2196F3 */
 
-.logo {
-  color: #2196f3;
-}
-
 .list {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.partlogo {
+  color: #212121;
+}
+
+.logo .partlogo:hover,
+.logo .partlogo:focus {
+  color: #2196f3;
+}
+
 /* site-nav */
 
-.site-nav a {
+.site-nav .link {
   color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* list-button */
+.list-button {
+  color: #212121;
+}
+
+.list-button:hover,
+.list-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* features */
+.features {
+  list-style: none;
 }
