@@ -1,64 +1,78 @@
-body {
-  background-color: #f5f4fa;
-  color: #212121;
-}
 
 /* цвет основного текста  #212121 */
 
 /* цвет вторичного текста  #757575 */
 
-/* после цвет текста  #FFFFFF */
+/* после цвет текста  #2196F3 */
 
-/* акцент цвета #F5F4FA */
+/* акцент цвета #E5E5E5 */
 
-/* вторичный акцент #2F303A */
+/* вторичный акцент фона #2F303A */
 
-/* потом цвет акцента (фона) #2196F3 */
+/* цвет фона #FFFFFF */
 
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196F3;
+  --accent-logo-color: #2196F3;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: var(--primary-text-color)
+}
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
 }
-
 .logo {
-  color: #2196f3;
+  color: var(--accent-logo-color)
 }
-
 .partlogo {
   color: #212121;
 }
-
 .logo .partlogo:hover,
 .logo .partlogo:focus {
   color: #2196f3;
 }
-
-/* site-nav */
-
-.site-nav .link {
-  color: #212121;
+.footerlogo {
+  color: #FFFFFF;
 }
 
+/* site-nav */
+.site-nav .link {
+  color: var(--primary-text-color)
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* list-button */
 .list-button {
   color: #212121;
 }
-
 .list-button:hover,
 .list-button:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
 
-/* features */
-.features {
-  list-style: none;
+/* section-wrap */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.section .section-title {
+  color: var(--primary-text-color);
+}
+.section .subtitle {
+  color: var(--title-text-color);
+}
+
+.background-section {
+  background-color: #F5F4FA;
 }
