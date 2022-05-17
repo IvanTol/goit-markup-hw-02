@@ -1,26 +1,30 @@
-
 /* цвет основного текста #212121;*/
 /* цвет текста #757575 */
-/* цвет фона шапки #FFFFFF;*/
+/* цвет фона шапки #ffffff;*/
+/* цвет текста секции герой */
 /* акцент #2196F3 */
 /* цвет фона (акцента) вторичный #2F303A;*/
 /* цвет фона чем мы занимаемся #E5E5E5; */
 /* цвет фона наша команда #F5F4FA; */
 /* подвал линки rgba(255, 255, 255, 0.6); */
+/* текст адреса #ffffff */
 
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
-  --primary-white-color: #FFFFFF;
-  --secondary-fon-color: #E5E5E5;
-  --accent-color: #2196F3;
+  --hero-text-color: #ffffff;
+  --primary-white-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --secondary-fon-color: #e5e5e5;
+  --accent-color: #2196f3;
   --secondary-command-color: #f5f4fa;
   --footer-link-color: rgba(255, 255, 255, 0.6);
+  --address-text-color: #ffffff;
 }
 
 body {
   background-color: var(--primary-white-color);
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 ul {
   list-style: none;
@@ -43,31 +47,35 @@ ul {
   color: var(--primary-text-color);
 }
 .footerlogo {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* навигация сайта */
 .current {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
 
+.display {
+  display: none;
+}
+
 /* список адресов */
 .auth-nav .link {
-  color: var(--title-text-color)
+  color: var(--title-text-color);
 }
-  .auth-nav .link:hover,
-  .auth-nav .link:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
   color: var(--accent-color);
 }
 
 /* секция герой */
 .section-hero {
-  background-color: #2F303A;
-  color: #ffffff;
+  background-color: var(--secondary-background-color);
+  color: var(--hero-text-color);
 }
 .section-block .section-title {
   color: var(--primary-text-color);
@@ -85,7 +93,7 @@ ul {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--primary-text-color);
 }
 
@@ -94,27 +102,21 @@ ul {
   background-color: var(--secondary-fon-color);
 }
 
-
 /* подвал (footer) */
 
 .hero-footer {
-  background-color: #2F303A;
+  background-color: var(--secondary-background-color);
 }
 .aside-link {
-  color: #FFFFFF;
+  color: var(--address-text-color);
 }
 .link-footer {
   color: var(--footer-link-color);
 }
 
-
 /* Стили для Портфолио */
 
 /* кнопки (button), ilter */
-.display {
-  display: none;
-}
-
 .button {
   color: var(--primary-text-color);
 }
