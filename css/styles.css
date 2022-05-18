@@ -48,7 +48,6 @@ ul {
   text-decoration: none;
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -60,7 +59,6 @@ ul {
 .partlogo {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -68,7 +66,6 @@ ul {
 .footerlogo {
   color: #ffffff;
   font-family: Raleway, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -78,6 +75,14 @@ ul {
 .current {
   color: var(--accent-color);
 }
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -97,10 +102,18 @@ ul {
 }
 
 /* секция герой */
-.section-hero {
+.section-hero .hero-title {
   background-color: var(--secondary-background-color);
   color: var(--hero-text-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+
 .section-block .section-title {
   color: var(--primary-text-color);
 }
@@ -112,13 +125,20 @@ ul {
 }
 
 /* кнопки */
-.hero-button {
-  color: var(--primary-text-color);
-}
+.hero-button,
 .hero-button:hover,
 .hero-button:focus {
+  color: var(--hero-text-color);
   background-color: var(--accent-color);
-  color: var(--primary-text-color);
+  font-family: tnherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* блок секций */
