@@ -117,15 +117,6 @@ ul {
   text-transform: uppercase;
 }
 
-.section-block {
-}
-.subtitle {
-  color: var(--title-text-color);
-}
-.background-section {
-  background-color: var(--secondary-command-color);
-}
-
 /* кнопки */
 .hero-button {
   color: var(--hero-text-color);
@@ -145,14 +136,41 @@ ul {
   background-color: var(--hero-text-color);
 }
 
-/* блок секций */
+/* блок секций, наша команда */
 .section-block {
   background-color: var(--secondary-fon-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-command {
+  background-color: var(--secondary-command-color);
+}
+
+.desc {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* подвал (footer) */
 
-.hero-footer {
+.footer {
   background-color: var(--secondary-background-color);
 }
 .aside-link {
@@ -167,17 +185,36 @@ ul {
 /* кнопки (button), ilter */
 .button {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 button:hover,
 button:focus {
   background-color: var(--accent-color);
-  color: var(--primary-text-color);
+  color: var(--primary-white-color);
 }
 
 .workin {
   background-color: var(--secondary-fon-color);
 }
-
 .block-filter.section-block {
   list-style: none;
+}
+.section-title-work {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.subtitle-work {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
