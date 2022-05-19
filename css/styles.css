@@ -52,8 +52,8 @@ ul {
   font-size: 26px;
   line-height: 1.19;
 }
-.nav-link-logo .partlogo:hover,
-.nav-link-logo .partlogo:focus {
+.nav-link-logo:hover,
+.nav-link-logo:focus {
   color: var(--accent-color);
 }
 .partlogo {
@@ -95,6 +95,10 @@ ul {
 /* список адресов */
 .auth-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -105,7 +109,6 @@ ul {
 .section-hero .hero-title {
   background-color: var(--secondary-background-color);
   color: var(--hero-text-color);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -125,13 +128,10 @@ ul {
 }
 
 /* кнопки */
-.hero-button,
-.hero-button:hover,
-.hero-button:focus {
+.hero-button {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
   font-family: tnherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -139,6 +139,11 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-text-color);
+  background-color: var(--hero-text-color);
 }
 
 /* блок секций */
