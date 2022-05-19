@@ -117,8 +117,7 @@ ul {
   text-transform: uppercase;
 }
 
-.section-block .section-title {
-  color: var(--primary-text-color);
+.section-block {
 }
 .subtitle {
   color: var(--title-text-color);
