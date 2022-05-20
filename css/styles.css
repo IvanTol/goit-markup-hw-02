@@ -121,7 +121,7 @@ ul {
 .hero-button {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
-  font-family: tnherit;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -141,12 +141,20 @@ ul {
 .section-block {
   background-color: var(--secondary-fon-color);
 }
-.section-title {
+.advant-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .subtitle {
@@ -160,10 +168,26 @@ ul {
   background-color: var(--secondary-command-color);
 }
 
-.desc {
+.section-title-desc {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.subtitle-profession {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -175,9 +199,19 @@ ul {
 }
 .aside-link {
   color: var(--address-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .link-footer {
   color: var(--footer-link-color);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* Стили для Портфолио */
@@ -185,6 +219,7 @@ ul {
 /* кнопки (button), ilter */
 .button {
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
